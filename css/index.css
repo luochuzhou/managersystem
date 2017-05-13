@@ -1,0 +1,189 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2 !important;
+}
+.top-title{
+    width: 100%;
+    height: 35px;
+    background-color: #32AFCF;
+}
+
+.top-title span{
+    color: white;
+    float: left;
+    font: 800 16px/35px "Microsoft Yahei";
+    padding-left: 20px;
+}
+
+.top-title>ul{
+    float: right;
+}
+
+.top-title>ul>li{
+    float: left;
+    padding: 0 20px;
+    color: white;
+    font: 800 15px/35px "Microsoft Yahei";
+}
+
+.admin-menu{
+    cursor: pointer;
+}
+.admin-menu-hide{
+    background-color: #32AFCF;
+    text-align: center;
+    display: none;
+}
+.admin-menu-hide a{
+    color: white;
+    font:400 14px/18px "Microsoft Yahei";
+}
+.admin-menu-hide a:hover{
+    color: black;
+    text-decoration: none;
+}
+.top-title s{
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+/***************************************************/
+.left-btn {
+    width: 250px;
+    float: left;
+    background-color: #F2F2F2;
+    border: 1px solid #E7E7E7;
+}
+
+.left-btn span{
+    padding-left: 10px;
+    display: inline-block;
+    width: 240px;
+    height: 35px;
+    color: #000;
+    font: 400 15px/35px "Microsoft Yahei";
+}
+
+.left-btn h3{
+    display: inline-block;
+    width: 250px;
+    height: 35px;
+    padding:0 0 0 20px;
+    margin: 0;
+    font:400 15px/35px "Microsoft Yahei";
+    border-top: 1px solid #E7E7E7;
+    cursor: pointer;
+    position: relative;
+}
+
+.left-btn i{
+    padding-right: 5px;
+}
+
+.left-btn s{
+    position: absolute;
+    right: 20px;
+    top: 9px;
+}
+
+.left-btn li{
+    padding-left: 40px;
+    border-top: 1px solid #E7E7E7;
+    font:400 14px/30px "Microsoft Yahei";
+    cursor: pointer;
+}
+
+.left-btn h3:hover,.left-btn li:hover{
+    color: #35A6C8;
+}
+
+/***************************************************/
+.main{
+    margin-left: 250px;
+    padding: 20px;
+    background-color: white;
+}
+
+/*表格*/
+.sev-table table{
+}
+.sev-table tr{
+
+}
+.sev-table th{
+    font: 600 16px/35px "Microsoft Yahei";
+    padding: 0 30px;
+    background-color: #0099CC;
+    color: #ffffff;
+    border:1px solid #D0D0D0;
+}
+.sev-table td{
+    font: 400 14px/35px "Microsoft Yahei";
+    padding: 0 30px;
+    border:1px solid #D0D0D0;
+}
+.old-color{
+    background-color: #D0D0D0;
+}
+.noold-color{
+    background-color: #A3A3A3;
+}
+/*表单*/
+.big-sev-form {
+    width: 522px;
+    height: 522px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #E9E9E9;
+    margin-top: 20px;
+}
+
+.sev-form{
+    width: 499px;
+    height: 499px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+}
+.sev-form section{
+    margin: 20px 0 20px 20px;
+}
+
+.sev-form label{
+    vertical-align: top;
+    color:#8E8E8E;
+    font-size: 15px;
+}
+.sev-form input{
+    width: 330px;
+    height: 28px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid #DCDCDC;
+}
+.sev-form textarea{
+    border: 1px solid #DCDCDC;
+    margin-left: 23px;
+    outline-style: none;
+}
+
+/***************************************************/
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: #F2F2F2;
+    line-height: 30px;
+
+}
+.footer span{
+    position: absolute;
+    left: 50%;
+}
+
+
+
+
+
+
+

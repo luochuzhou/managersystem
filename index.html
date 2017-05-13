@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <!-- 顶部菜单 -->
+    <div class="top-title">
+        <span>系统菜单</span>
+        <ul>
+            <li>超级管理员</li>
+            <li>
+                <ul class="admin-menu">
+                    <li>admin<s class="glyphicon glyphicon-triangle-bottom"></s></li>
+                    <li class="admin-menu-hide"><a href="#">修改密码</a></li>
+                    <li class="admin-menu-hide"><a href="#">退出系统</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 右部菜单 -->
+    <div class="left-btn">
+        <span>主菜单</span>
+        <ul class="main-btn">
+            <h3><i class="glyphicon glyphicon-screenshot"></i>订单管理<s></s></h3>
+            <li class="child-btn"><i class="glyphicon glyphicon-bed"></i>已付款</li>
+            <li class="child-btn"><i class="glyphicon glyphicon-sunglasses"></i>未付款</li>
+        </ul>
+        <ul class="main-btn">
+            <h3><i class="glyphicon glyphicon-folder-open"></i>订单管理<s></s></h3>
+            <li class="child-btn"><i class="glyphicon glyphicon-subscript"></i>已付款</li>
+            <li class="child-btn"><i class="glyphicon glyphicon-screenshot"></i>未付款</li>
+        </ul>
+        <ul class="main-btn">
+            <h3><i class="glyphicon glyphicon-tower"></i>订单管理<s></s></h3>
+            <li class="child-btn"><i class="glyphicon glyphicon-object-align-top"></i>已付款</li>
+            <li class="child-btn"><i class="glyphicon glyphicon-superscript"></i>未付款</li>
+        </ul>
+    </div>
+
+    <!-- 中间主要区域 开始 -->
+    <div class="main">
+        <!-- 表格 -->
+        <div class="sev-table">
+            <table>
+                <tr><th>序号</th><th>姓名</th><th>课程</th><th>成绩</th></tr>
+                <tr class="old-color"><td>1</td><td>吕不韦</td><td>日语</td><td>100</td></tr>
+                <tr class="noold-color"><td>1</td><td>吕不韦</td><td>日语</td><td>100</td></tr>
+                <tr class="old-color"><td>1</td><td>吕不韦</td><td>日语</td><td>100</td></tr>
+                <tr class="noold-color"><td>1</td><td>吕不韦</td><td>日语</td><td>100</td></tr>
+                <tr class="old-color"><td>1</td><td>吕不韦</td><td>日语</td><td>100</td></tr>
+                <tr class="noold-color"><td>1</td><td>吕不韦</td><td>日语</td><td>100</td></tr>
+            </table>
+        </div>
+
+        <!-- 表单 -->
+        <div class="big-sev-form">
+            <div class="sev-form">
+                <form action="#">
+                    <section>
+                        <label>Your Name&nbsp;&nbsp;:</label>
+                        <input type="text"/>
+                    </section>
+                    <section>
+                        <label>Your Email&nbsp;&nbsp;:</label>
+                        <input type="email"/>
+                    </section>
+                    <section>
+                        <label>Message&nbsp;&nbsp;:</label>
+                        <textarea cols="35" rows="7"></textarea>
+                    </section>
+                    <section>
+                        <label>Subject&nbsp;&nbsp;:</label>
+                        <select>
+                            <option>Math</option>
+                            <option>English</option>
+                        </select>
+                    </section>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 中间主要区域 结束 -->
+
+    <div class="footer">
+        <span>@seven 2017-5-13</span>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
